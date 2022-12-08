@@ -2,15 +2,17 @@ import java.time.LocalDate;
 
 public class Homework11 {
     public static void main(String[] args) {
+        insertSeparator();
         task1();
-        insertEmptyString();
+        insertSeparator();
         task2();
-        insertEmptyString();
+        insertSeparator();
         task3();
+        insertSeparator();
     }
 
-    public static void insertEmptyString() {
-        System.out.println();
+    public static void insertSeparator() {
+        System.out.println("=========================================================================================");
     }
 
     public static void task1() {
